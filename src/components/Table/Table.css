@@ -1,0 +1,20 @@
+.table {
+  margin: 155px 0;
+}
+
+.table-row {
+  display: flex;
+  line-height: 24px;
+  white-space: nowrap;
+  margin: 10px 0;
+  padding: 10px;
+  background: #E75423;
+  color: #F3F7F3;
+  border: 1px solid #8592A7;
+}
+
+.table-row span{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 5px;
+}

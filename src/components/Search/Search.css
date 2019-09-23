@@ -1,0 +1,41 @@
+.f-med-search {
+  color: #E75423;
+  font-size: 30px;
+}
+
+.f-large-search {
+  color: #8592A7;
+  font-size: 40px;
+}
+
+.search-title {
+  line-height: .9;
+}
+
+
+.icon {
+  color: #F3F7F3;
+  width: 40px;
+  font-size: 2rem;
+}
+
+
+.search-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 0.7rem 2rem;
+  background: #201520;
+}
+
+.search-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  list-style: none;
+}

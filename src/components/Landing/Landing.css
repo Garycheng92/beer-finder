@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+}
+
+.f-med {
+  font-size: 70px;
+  color: #E75423;
+}
+
+.f-large {
+  font-size: 100px;
+  color: #8592A7;
+}
+
+.title {
+  line-height: .8;
+ animation: move1 5s ease-in forwards;
+
+}
+@keyframes move1 {
+  0% {
+   opacity: 0;
+  }
+  50% {
+    margin-top:350px;
+    opacity: 1;
+  }
+  100% {
+    margin-top:290px;
+  }
+}
+
+p {
+  font-size: 30px;
+  color: #F3F7F3;
+}
+
+.landing-btn {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #201520;
+  border-radius: 15px;
+  color: #201520;
+  background: rgba(243, 247, 243, 0.2);
+  text-decoration: none;
+}
+
+.landing-btn:hover {
+    background: #E75423;
+    opacity: .9;
+    color: #F3F7F3;
+}
+
+
+.wrapper {
+  animation: move2 7.6s ease-in forwards;
+}
+
+@keyframes move2 {
+  from { opacity: 0;}
+  to {opacity: 1;}
+}
+
